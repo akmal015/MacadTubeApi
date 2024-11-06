@@ -1,0 +1,108 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - YouTube Search App</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+    <style>
+        body {
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+            font-family: 'Arial', sans-serif;
+        }
+
+        .custom-container {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .custom-box {
+            background-color: #1b5e20; /* Dark Green Background */
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+        }
+
+        .custom-box h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .custom-box p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            color: #b0c4de;
+        }
+
+        .custom-box a {
+            text-decoration: none;
+            background-color: #4caf50; /* Green Button */
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 1.2rem;
+            transition: background-color 0.3s;
+        }
+
+        .custom-box a:hover {
+            background-color: #66bb6a; /* Lighter Green on hover */
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        (max-width: 576px) {
+            .custom-box h1 {
+                font-size: 2.5rem;
+            }
+
+            .custom-box p {
+                font-size: 1rem;
+            }
+
+            .custom-box a {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container custom-container">
+        <div class="custom-box">
+            <h1>Welcome to MacadTube Search App</h1>
+            <p>Discover your favorite songs and videos using the MacadTube API.</p>
+
+            <!-- Link to Search Page -->
+            <a href="@Url.Action("Search", "Home")" class="btn">Start Searching</a>
+
+            <div class="footer">
+                <p>hopefully you guys enjoy with our services.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies (Optional) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

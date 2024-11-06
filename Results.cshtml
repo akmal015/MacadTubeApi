@@ -1,0 +1,12 @@
+﻿<h2>Search Results</h2>
+<ul>
+    @foreach (var video in Model)
+    {
+        <li>
+            <h3>@video.Title</h3>
+            <img src="@video.Thumbnail" alt="Thumbnail" />
+            <p>@video.Description</p>
+            <a href="https://www.youtube.com/watch?v=@video.VideoId" target="_blank">Watch Video</a>
+        </li>
+    }
+</ul>

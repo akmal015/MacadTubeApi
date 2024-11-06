@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "AnUAXDGXu6I=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\MacadtubeApiProject\\MacadtubeApiProject\\MacadtubeApiProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\bootstrap\\5.3.3\\bootstrap.5.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\bootstrap.v3.datetimepicker.css\\4.17.49\\bootstrap.v3.datetimepicker.css.4.17.49.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\google.apis\\1.68.0\\google.apis.1.68.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\google.apis.auth\\1.68.0\\google.apis.auth.1.68.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\google.apis.core\\1.68.0\\google.apis.core.1.68.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\google.apis.youtube.v3\\1.68.0.3556\\google.apis.youtube.v3.1.68.0.3556.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\moment.js\\2.9.0\\moment.js.2.9.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
